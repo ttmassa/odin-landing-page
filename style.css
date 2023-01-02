@@ -7,7 +7,7 @@ header {
   background-color: rgb(31, 41, 55);
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 50px;
+  height: 450px;
 }
 
 header h2 {
@@ -52,6 +52,7 @@ header button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .section2 {
@@ -62,11 +63,55 @@ header button {
 }
 
 .left-items-2 {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .placeholder {
     width: 400px;
     height: 200px;
     background-color: gray;
+    flex-shrink: 0.5;
 }
+
+.information-section {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.information-title {
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 3000;
+  color: rgb(25, 41, 55);
+  text-align: center;
+}
+
+.portrait {
+  width: 100px;
+  height: 100px;
+  border: 2.5px solid rgb(84, 147, 248);
+  border-radius: 10px;
+}
+
+.information-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: top;
+  gap: 40px;
+}
+
+.container-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.container-square p {
+  text-align: center;
+}
+
