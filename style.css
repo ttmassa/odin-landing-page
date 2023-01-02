@@ -143,3 +143,55 @@ header button {
   align-items: flex-end;
 }
 
+.cto-section {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cto-container {
+  background-color: rgb(56, 130, 246);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  border: 1px solid red;
+}
+
+.cto-container h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(249, 250, 248);
+  font-size: 20px;
+
+}
+
+.cto-container p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(249, 250, 248);
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.cto-container button {
+  width: 100px;
+  height: 30px;
+  color: rgb(249, 250, 248);
+  background-color: rgb(56, 130, 246);
+  border-radius: 8px;
+  border-color: rgb(249, 250, 248);
+}
+
+.cto-left {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+
+
+
+
