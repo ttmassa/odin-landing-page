@@ -34,10 +34,11 @@ ul {
 }
 
 header button {
+  background-color: rgb(84, 147, 248);
   color: aliceblue;
+  border-color: rgb(31, 41, 55);
   font-size: 14px;
   border-radius: 6px;
-  background-color: rgb(84, 147, 248);
   width: 125px;
   height: 30px;
 }
@@ -63,7 +64,8 @@ header button {
 }
 
 .left-items-2 {
-    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
 }
 
 .placeholder {
@@ -145,6 +147,7 @@ header button {
 
 .cto-section {
   height: 300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
 }
@@ -155,40 +158,48 @@ header button {
   margin-right: 10%;
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+  justify-self: start;
   flex: 1;
-  border: 1px solid red;
 }
 
 .cto-container h4 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(249, 250, 248);
   font-size: 20px;
 
 }
 
 .cto-container p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(249, 250, 248);
   font-size: 15px;
   font-weight: lighter;
+  position: relative;
+  bottom: 18px;
 }
 
 .cto-container button {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
   color: rgb(249, 250, 248);
   background-color: rgb(56, 130, 246);
   border-radius: 8px;
   border-color: rgb(249, 250, 248);
 }
 
-.cto-left {
-  border: 1px solid red;
+footer {
+  background-color: rgb(31, 41, 55);
+  height: 50px;
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(249, 250, 248);
 }
 
 
